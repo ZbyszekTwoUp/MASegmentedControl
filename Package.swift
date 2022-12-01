@@ -1,8 +1,8 @@
-// swift-tools-version:5.1
+// swift-tools-version: 5.7.1
 import PackageDescription
 
 let package = Package(name: "MASegmentedControl",
-                      platforms: [.iOS(.v10)],
+                      platforms: [.iOS(.v12)],
                       products: [.library(name: "MASegmentedControl",
                                           targets: ["MASegmentedControl"])],
                       targets: [.target(name: "MASegmentedControl",
